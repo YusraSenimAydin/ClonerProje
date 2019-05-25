@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigatorFragments.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/helpFragment_help"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_light"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="7dp"
+            android:text="@string/settingsFragment_applicationSettings"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <Switch
+            android:id="@+id/swtch5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_light"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="7dp"
+            android:text="@string/settingsFragment_colorBlindMode"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18dp"
+            />
+
+        <Switch
+            android:id="@+id/swich5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_light"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="7dp"
+            android:text="@string/settingsFragment_languageTurkish"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18dp"
+            />
+
+        <Switch
+            android:id="@+id/switc5"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/background_light"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="7dp"
+            android:text="@string/settingsFragment_languageEnglish"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>

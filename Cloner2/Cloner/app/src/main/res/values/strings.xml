@@ -1,0 +1,26 @@
+<resources>
+    <!-- bunlar daha sonra kaldırılacak -->
+    <string name="app_name">Cloner</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_add">Add</string>
+    <string name="title_help">Help</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Help Fragment -->
+    <string name="helpFragmentText_help">Yardım</string>
+    <string name="helpFragmentText_howDo">Nasıl Yapılır?</string>
+    <string name="helpFragmentText_questions">En çok sorulan sorular?</string>
+    <string name="helpFragmentText_sendToMessage">Bize Ulaşın?</string>
+
+    <!-- Settings Fragment -->
+    <string name="settingsFragment_applicationSettings">Uygulama Ayarları</string>
+    <string name="settingsFragment_colorBlindMode">Renk Körü Modu</string>
+    <string name="settingsFragment_languageTurkish">Türkçe</string>
+    <string name="settingsFragment_languageEnglish">İngilizce</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
